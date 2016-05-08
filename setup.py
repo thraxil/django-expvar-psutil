@@ -11,7 +11,7 @@ setup(
     url="https://github.com/thraxil/django-expvar-psutil",
     description="Django expvar endpoint psutil plugin",
     long_description=open(os.path.join(ROOT, 'README.md')).read(),
-    install_requires=['Django>=1.8', 'nose', 'six', 'django-expvar'],
+    install_requires=['Django>=1.8', 'nose', 'six', 'django-expvar', 'psutil'],
     scripts=[],
     license="BSD",
     platforms=["any"],
